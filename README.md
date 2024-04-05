@@ -7,5 +7,5 @@ https://ircf.space \
 https://ertebateweb.github.io/tester
 
 __با تشکر از وحید فرید و Yebekhe ، بابت ایجاد بانک اطلاعاتی آی‌پی‌های تمیز:__\
-https://github.com/vfarid/cf-clean-ips
+https://github.com/vfarid/cf-clean-ips \
 https://github.com/yebekhe/cf-clean-ip-resolver
