@@ -219,7 +219,9 @@ $(document).on('click', '#fetchFromOther', function(e) {
         inArr = [ "mkb", "mkh" ];
     }
     document.getElementById('fetchFromOther').disabled = true;
-    jQuery.get('https://raw.githubusercontent.com/vfarid/cf-clean-ips/main/list.json?v1.'+Date.now(), function(data) {
+   // jQuery.get('https://raw.githubusercontent.com/vfarid/cf-clean-ips/main/list.json?v1.'+Date.now(), function(data)
+	jQuery.get('https://raw.githubusercontent.com/yebekhe/cf-clean-ip-resolver/main/list.json?v1.'+Date.now(), function(data) { 
+	
         data = JSON.parse(data);
         $i = 0;
         let ipList = "";
